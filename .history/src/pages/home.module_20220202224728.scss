@@ -1,0 +1,14 @@
+.backgroundImg{
+    color: var(--white);
+
+    
+
+}
+.backgroundImg::before{
+    content: "";
+    background-image:  url('../../public/imgs/background.jpg') ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

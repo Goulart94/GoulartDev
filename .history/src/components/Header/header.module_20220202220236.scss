@@ -1,0 +1,14 @@
+.HeaderContainer{
+    height: 5rem;
+    border-bottom: solid 1px var(--gray-300);
+
+}
+.HeaderContent{
+    max-width: 1120;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+}

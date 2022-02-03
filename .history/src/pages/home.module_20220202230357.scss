@@ -1,0 +1,19 @@
+.backgroundImg{
+ 
+    
+    
+     
+    height: 100vh;
+
+   
+      &::before{
+        content: "";
+        position: absolute;
+        top: 0px;
+        background-image:  url('../../public/imgs/background.jpg' ) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
