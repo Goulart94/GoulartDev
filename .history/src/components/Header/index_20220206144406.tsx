@@ -5,8 +5,8 @@ export default function Header() {
       <header className={style.HeaderContainer}>
           <div className={style.HeaderContent}>
               <nav >
-                  <a className={style.active} href='./'>Home</a>
-                  <a href='./about'>Sobre</a>
+                  <a className={style.active}>Home</a>
+                  <a href='/about'>Sobre</a>
                   <a>Portfólio</a>
                   <a>Contatos</a>
                   

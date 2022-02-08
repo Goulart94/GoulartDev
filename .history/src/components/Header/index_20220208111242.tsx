@@ -6,7 +6,7 @@ export default function Header() {
           <div className={style.HeaderContent}>
               <nav >
                   <a className={style.active} href='./'>Home</a>
-                  <a href='./about'>Sobre</a>
+                  <a href=''>Sobre</a>
                   <a>Portfólio</a>
                   <a>Contatos</a>
                   
@@ -15,3 +15,4 @@ export default function Header() {
       </header>
   );
 }
+z

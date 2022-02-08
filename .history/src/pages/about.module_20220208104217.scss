@@ -1,0 +1,47 @@
+.textArea{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  
+
+}
+.hero{
+    max-width: 700px;
+    bottom: 20%;
+   
+    h1{
+        font-size: 3.5rem;
+        color: var(--cyan-500);
+        margin-bottom: 2rem;
+        font-weight: 900;
+    }
+    h2{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        color: var(--gray-300);
+        
+    }
+    p{
+        text-indent: 1rem;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+        color: var(--gray-100);
+        font-weight: 500;
+        span{
+            color: var(--yellow-500);
+        }
+     }
+       p::first-letter {
+            font-size: 2rem;
+            
+            text-transform: uppercase;
+          }
+    
+}

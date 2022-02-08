@@ -37,7 +37,7 @@
 
 }
 .textArea{
-    max-width: 1320px;
+    max-width: 1120px;
     margin: 0 auto;
     padding: 0 2rem;
     height: calc(100vh - 5rem);
@@ -66,3 +66,7 @@
     }
     
 }
+.avatar{
+      position: relative;
+      left: 80px;
+    }

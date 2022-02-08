@@ -8,7 +8,6 @@ export default function Home() {
     <Head>
     <title>Home | GoulartDev</title>
     </Head>
-    
     <div className={style.backgroundImg}>
 
       <main className={style.textArea} >
@@ -19,10 +18,9 @@ export default function Home() {
            <h1>Maycon Goulart <span>Desenvolvedor web</span></h1>
            <p>Tudo o que o seu site precisa para ser encontrado. </p>
         </section>
-     
+        <div><img src='../../public/imgs/Ilustra.png' /></div>
 
       </main>
-        
        
     </div>
   </>

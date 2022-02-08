@@ -8,7 +8,6 @@ export default function Home() {
     <Head>
     <title>Home | GoulartDev</title>
     </Head>
-    
     <div className={style.backgroundImg}>
 
       <main className={style.textArea} >
@@ -22,7 +21,9 @@ export default function Home() {
      
 
       </main>
-        
+        <div className={style.avatar}>
+          <img src='/imgs/Ilustra.png'  />
+        </div>
        
     </div>
   </>

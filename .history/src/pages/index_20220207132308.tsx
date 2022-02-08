@@ -8,7 +8,7 @@ export default function Home() {
     <Head>
     <title>Home | GoulartDev</title>
     </Head>
-    
+    <Header/>
     <div className={style.backgroundImg}>
 
       <main className={style.textArea} >
