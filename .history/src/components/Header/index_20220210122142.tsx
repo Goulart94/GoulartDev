@@ -9,9 +9,8 @@ export default function Header() {
 
     const [checked, setChecked] = React.useState(false);
 
-    const handleChange = () => {
-      setChecked(true)}
-    
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+      setChecked(event.target.checked);
   return (
       
       <header className={style.HeaderContainer}>
@@ -25,10 +24,10 @@ export default function Header() {
                   <a>Contatos</a>
                 </nav>
                 <div className={style.SwicthTheme}>
-                    <Switch
-                    value={checked}
-                    onChange={handleChange}
-                    inputProps={{ 'aria-label': 'controlled' }}/>
+                       <Switch
+                       checked={false}
+                        onChange={handleChange}
+                      inputProps={{ 'aria-label': 'controlled' }}/>
     
                 </div>
                 

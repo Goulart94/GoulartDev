@@ -11,7 +11,6 @@ export default function Header() {
 
     const handleChange = () => {
       setChecked(true)}
-    
   return (
       
       <header className={style.HeaderContainer}>
@@ -26,8 +25,8 @@ export default function Header() {
                 </nav>
                 <div className={style.SwicthTheme}>
                     <Switch
-                    value={checked}
-                    onChange={handleChange}
+                    checked={false}
+                    onClick={handleChange}
                     inputProps={{ 'aria-label': 'controlled' }}/>
     
                 </div>

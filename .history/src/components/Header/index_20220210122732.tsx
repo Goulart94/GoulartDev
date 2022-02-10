@@ -7,11 +7,10 @@ export default function Header() {
 
     const {asPath} = useRouter();
 
-    const [checked, setChecked] = React.useState(false);
+    const [checked, setChecked] = React.useState(Boolean);
 
     const handleChange = () => {
       setChecked(true)}
-    
   return (
       
       <header className={style.HeaderContainer}>
@@ -27,7 +26,7 @@ export default function Header() {
                 <div className={style.SwicthTheme}>
                     <Switch
                     value={checked}
-                    onChange={handleChange}
+                    onClick={handleChange}
                     inputProps={{ 'aria-label': 'controlled' }}/>
     
                 </div>

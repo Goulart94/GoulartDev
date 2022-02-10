@@ -4,7 +4,7 @@ import style from './style.module.scss'
 
 export default function ContactUsButton() {
   return (
-      <button className={style.button}>
+      <button>
           Entre em contato
       </button>
   

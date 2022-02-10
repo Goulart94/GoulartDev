@@ -1,0 +1,14 @@
+.button{
+    width: 260px;
+    border: none;
+    border-radius: 3rem;
+    height: 3rem;
+    margin-top: 3rem;
+    background: var(--yellow-500);
+    color: var(--gray-900);
+    font-weight: bold;
+  
+}
+.button:hover{
+ filter: brightness(0.8);
+}

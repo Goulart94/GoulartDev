@@ -9,18 +9,17 @@
     height: 100%;
     margin: 0 auto;
     padding: 0 2rem;
-    
+    position: relative;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     img{
-        margin-left: 5rem;
-        width: 200px;
+        right: 200px;
+        width: 10rem;
     }
     nav{
-        position: relative;
-        left:250px;
+       
         height: 100%;
 
          a{
@@ -58,8 +57,5 @@
 
              }
           }
-     }
-     .SwicthTheme{
-         margin-right: 50px;
      }
 }

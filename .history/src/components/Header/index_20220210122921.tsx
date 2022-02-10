@@ -11,7 +11,6 @@ export default function Header() {
 
     const handleChange = () => {
       setChecked(true)}
-    
   return (
       
       <header className={style.HeaderContainer}>

@@ -1,22 +1,12 @@
 import { useRouter } from 'next/router';
-import React from 'react';
 import style from '../Header/header.module.scss';
-import Switch from '@mui/material/Switch';
+import SwicthTheme from '../SwitchTheme';
 
 export default function Header() {
-
     const {asPath} = useRouter();
-
-    const [checked, setChecked] = React.useState(false);
-
-    const handleChange = () => {
-      setChecked(true)}
-    
   return (
-      
       <header className={style.HeaderContainer}>
           <div className={style.HeaderContent}>
-            
               <img src="../../imgs/logo.png" alt="logo" />
               <nav >
                   <a className={asPath === '/' ? style.active : ''} href="/">Home</a>
@@ -25,11 +15,7 @@ export default function Header() {
                   <a>Contatos</a>
                 </nav>
                 <div className={style.SwicthTheme}>
-                    <Switch
-                    value={checked}
-                    onChange={handleChange}
-                    inputProps={{ 'aria-label': 'controlled' }}/>
-    
+                    <SwicthTheme ></SwicthTheme>
                 </div>
                 
           </div>

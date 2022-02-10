@@ -15,12 +15,13 @@
     align-items: center;
     justify-content: space-between;
     img{
-        margin-left: 5rem;
-        width: 200px;
+
+        width: 10rem;
     }
     nav{
         position: relative;
-        left:250px;
+        right: 150px;
+
         height: 100%;
 
          a{
@@ -58,8 +59,5 @@
 
              }
           }
-     }
-     .SwicthTheme{
-         margin-right: 50px;
      }
 }

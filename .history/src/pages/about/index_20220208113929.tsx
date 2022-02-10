@@ -1,15 +1,9 @@
-import Head from 'next/head';
 import React from 'react';
 import ContactUsButton from '../../components/ContactUsButton';
 import style from'./about.module.scss'
 
 export default function About() {
   return (
-    <>
-       <Head>
-         <title>Sobre | GoulartDev</title>
-
-       </Head>
      
      <div className={style.textArea}>
        <main className={style.hero}> 
@@ -25,6 +19,5 @@ export default function About() {
          </main>
          <img src="../../imgs/Ilustra.png" alt="" />
      </div>
-    </>
      );
 }
