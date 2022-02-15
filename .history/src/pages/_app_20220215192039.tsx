@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     setTheme(theme.title === 'dark' ? ligth : dark);
 
   };
-  
+  console.log(localStorage.getItem('theme'))
    
   return(
     <ThemeProvider theme={theme}>

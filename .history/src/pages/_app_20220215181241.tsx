@@ -3,8 +3,8 @@ import {ThemeLigthGlobal} from '../styles/global';
 import {ThemeProvider} from 'styled-components'
 import dark from '../styles/themes/dark';
 import ligth from '../styles/themes/ligth';
-
-import usePersistedState from '../utils/usePersistedState'
+import { useState } from 'react';
+import {usePersistedState} from '../utils/usePersistedState'
 
 
 
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     setTheme(theme.title === 'dark' ? ligth : dark);
 
   };
-  
+   
    
   return(
     <ThemeProvider theme={theme}>

@@ -35,7 +35,7 @@ export default function Header(props: props) {
                 </nav>
                 <div className={style.SwicthTheme}>
                     <Switch
-                    checked={title === 'ligth'}
+                    value={title === 'dark'}
                     onChange={props.hendleTheme}
                     inputProps={{ 'aria-label': 'controlled' }}
                     

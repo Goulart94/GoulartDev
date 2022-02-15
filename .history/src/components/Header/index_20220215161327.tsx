@@ -1,9 +1,7 @@
 import { useRouter } from 'next/router';
-import React, { useContext } from 'react';
+import React from 'react';
 import style from '../Header/header.module.scss';
 import Switch from '@mui/material/Switch';
-import dark from '../../styles/themes/dark';
-import { ThemeContext } from 'styled-components';
 
 
 interface props{
@@ -15,9 +13,7 @@ export default function Header(props: props) {
 
     const {asPath} = useRouter();
 
-    const {title} = useContext(ThemeContext);
-
-    
+    const [checked, setChecked] = React.useState(false);
 
     
     
@@ -35,8 +31,8 @@ export default function Header(props: props) {
                 </nav>
                 <div className={style.SwicthTheme}>
                     <Switch
-                    checked={title === 'ligth'}
-                    onChange={props.hendleTheme}
+                    value={checked}
+                    onChange={()=>setChecked(!checked)}
                     inputProps={{ 'aria-label': 'controlled' }}
                     
                     

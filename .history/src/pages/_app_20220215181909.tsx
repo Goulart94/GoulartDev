@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     setTheme(theme.title === 'dark' ? ligth : dark);
 
   };
-  
+   
    
   return(
     <ThemeProvider theme={theme}>
