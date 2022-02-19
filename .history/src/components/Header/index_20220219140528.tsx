@@ -31,7 +31,7 @@ export default function Header(props: props) {
               <nav >
                   <a className={asPath === '/' ? 'active' : ''} href="/">Home</a>
                   <a className={asPath ==='/about' ? 'active' : '' } href="/about">Sobre</a>
-                  <a className={asPath ==='/portfolio' ? 'active' : '' }  href="/portfolio">Portfólio</a>
+                  <a className={asPath ==='/portfolio' ? 'active' : '' }>Portfólio</a>
                   <a>Contatos</a>
                 </nav>
                 <div className='SwicthTheme'>

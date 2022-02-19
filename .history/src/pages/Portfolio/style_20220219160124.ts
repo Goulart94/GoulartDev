@@ -1,0 +1,43 @@
+import { background } from './../../../.history/src/pages/home.style_20220215213818';
+
+import styled from "styled-components";
+
+export const Container = styled.div`
+
+    max-width: 1320px;
+    
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+   
+    
+
+`
+
+export const ConteinerCard = styled.div`
+    position: relative;
+    top: 4rem;
+
+    
+    width:350px;
+    height: 250px;
+    align-items:center;
+    
+    border-radius: 10px;
+    background: ${props => props.theme.colors.gray100};
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 6px 6px rgba(235, 164, 23, 0.6);
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        
+    }
+     
+
+
+`

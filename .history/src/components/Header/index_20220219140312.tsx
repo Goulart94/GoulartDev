@@ -30,8 +30,8 @@ export default function Header(props: props) {
               <img src="../../imgs/logo01.png" alt="logo" />
               <nav >
                   <a className={asPath === '/' ? 'active' : ''} href="/">Home</a>
-                  <a className={asPath ==='/about' ? 'active' : '' } href="/about">Sobre</a>
-                  <a className={asPath ==='/portfolio' ? 'active' : '' }  href="/portfolio">Portfólio</a>
+                  <a className={asPath ==='/About' ? 'active' : '' } href="/about">Sobre</a>
+                  <a className={asPath ==='/Po' ? 'active' : '' }>Portfólio</a>
                   <a>Contatos</a>
                 </nav>
                 <div className='SwicthTheme'>
