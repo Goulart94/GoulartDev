@@ -43,9 +43,7 @@ export const ConteinerCard = styled.div`
  
     }
     .icon{
-       font-size: 40px;
-       color: #000;
-       width:100%
+        size: 30px;
     }
      
 

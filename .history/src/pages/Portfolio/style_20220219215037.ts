@@ -1,4 +1,3 @@
-import { Img } from './../../../.history/src/components/Header/style_20220215223059';
 import { background } from './../../../.history/src/pages/home.style_20220215213818';
 
 import styled from "styled-components";
@@ -36,16 +35,6 @@ export const ConteinerCard = styled.div`
         cursor: pointer;
         transform: scale(1.2);
         
-    }
-    Img{
-        width:100%;
-        height:200px;
- 
-    }
-    .icon{
-       font-size: 40px;
-       color: #000;
-       width:100%
     }
      
 

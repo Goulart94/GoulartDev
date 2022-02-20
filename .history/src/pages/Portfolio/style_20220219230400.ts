@@ -44,8 +44,6 @@ export const ConteinerCard = styled.div`
     }
     .icon{
        font-size: 40px;
-       color: #000;
-       width:100%
     }
      
 

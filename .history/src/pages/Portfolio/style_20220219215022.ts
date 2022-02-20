@@ -1,4 +1,3 @@
-import { Img } from './../../../.history/src/components/Header/style_20220215223059';
 import { background } from './../../../.history/src/pages/home.style_20220215213818';
 
 import styled from "styled-components";
@@ -31,21 +30,11 @@ export const ConteinerCard = styled.div`
     margin: 10px 25px 10px 25px;
    
     box-shadow: 2px 2px 6px 6px rgba(235, 164, 23, 0.6);
-    transition: 0.5s;
+    transition: 0.3s;
     &:hover{
         cursor: pointer;
         transform: scale(1.2);
         
-    }
-    Img{
-        width:100%;
-        height:200px;
- 
-    }
-    .icon{
-       font-size: 40px;
-       color: #000;
-       width:100%
     }
      
 

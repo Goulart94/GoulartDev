@@ -24,7 +24,7 @@ export default function Portfolio() {
 
           <ConteinerCard>
              <img src="../../imgs/code.png" alt='My code-postal'/>
-             <a href={"https://github.com/Goulart94/code-seach"} target="_blank"><GoMarkGithub className='icon'/></a>
+             <a href={"https://github.com/Goulart94/Ig.news"} target="_blank"><GoMarkGithub className='icon'/></a>
           </ConteinerCard>
              
           <ConteinerCard>
@@ -34,7 +34,7 @@ export default function Portfolio() {
           
           <ConteinerCard>
               <img src="../../imgs/github.png" alt='Git-profile'/>
-              <a href={"https://github.com/Goulart94/"} target="_blank"><GoMarkGithub className='icon'/></a>
+              <a href={"https://github.com/Goulart94/Ig.news"} target="_blank"><GoMarkGithub className='icon'/></a>
               
           </ConteinerCard>
 

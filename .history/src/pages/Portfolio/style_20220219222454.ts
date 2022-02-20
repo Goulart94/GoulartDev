@@ -38,14 +38,9 @@ export const ConteinerCard = styled.div`
         
     }
     Img{
-        width:100%;
-        height:200px;
- 
-    }
-    .icon{
-       font-size: 40px;
-       color: #000;
-       width:100%
+        width:100;
+        
+       
     }
      
 

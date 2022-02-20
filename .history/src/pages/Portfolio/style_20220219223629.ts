@@ -24,7 +24,7 @@ export const ConteinerCard = styled.div`
 
     
     width:350px;
-    height: 250px;
+    height: 200px;
     
     border-radius: 10px;
     background: ${props => props.theme.colors.gray100};
@@ -40,12 +40,8 @@ export const ConteinerCard = styled.div`
     Img{
         width:100%;
         height:200px;
- 
-    }
-    .icon{
-       font-size: 40px;
-       color: #000;
-       width:100%
+        
+       
     }
      
 

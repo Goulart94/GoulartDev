@@ -21,8 +21,6 @@ export default function Header(props: props) {
     
 
     
-
-    
     
   return (
       

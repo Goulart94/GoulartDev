@@ -42,10 +42,8 @@ export const ConteinerCard = styled.div`
         height:200px;
  
     }
-    .icon{
-       font-size: 40px;
-       color: #000;
-       width:100%
+    a{
+        position:center;
     }
      
 
