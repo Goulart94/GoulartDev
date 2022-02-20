@@ -1,0 +1,25 @@
+import { Hero } from './../../../.history/src/pages/home.style_20220215214752';
+import styled from "styled-components";
+
+export const AreaText = styled.div`
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 2rem;
+
+`
+export const ContainerText = styled.main`
+    max-width: 700px;
+     h1{
+         font-size: 60px;
+         color: ${p => p.theme.colors.cyan500
+
+     }
+
+`
