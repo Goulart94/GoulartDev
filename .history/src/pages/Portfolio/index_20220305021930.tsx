@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
-import { Container, ConteinerCard } from '../../components/stylesComponents/stylePortfolio';
+import { Container, ConteinerCard } from '../../components/styles/stylePortfolio';
 import {GoMarkGithub} from 'react-icons/go'
 
 export default function Portfolio() {

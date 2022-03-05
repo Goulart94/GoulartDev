@@ -5,7 +5,7 @@ import dark from '../styles/themes/dark';
 import ligth from '../styles/themes/ligth';
 
 import usePersistedState from '../utils/usePersistedState'
-
+import { Head } from 'next/document';
 
 
 

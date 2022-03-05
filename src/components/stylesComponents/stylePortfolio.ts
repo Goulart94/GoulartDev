@@ -1,5 +1,4 @@
-import { Img } from './../../../.history/src/components/Header/style_20220215223059';
-import { background } from './../../../.history/src/pages/home.style_20220215213818';
+
 
 import styled from "styled-components";
 

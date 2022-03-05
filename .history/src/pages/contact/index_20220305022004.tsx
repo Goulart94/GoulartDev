@@ -1,5 +1,5 @@
 import React from 'react'
-import { AreaText, BoxMensange, ContainerText,  DadosContact,  Form, SubmitButton } from '../../components/stylesComponents/styleContact';
+import { AreaText, BoxMensange, ContainerText,  DadosContact,  Form, SubmitButton } from '../../components/styles/styleContact';
 import { RiMailSendLine, RiPhoneFill } from "react-icons/ri";
 import { BsWhatsapp, BsLinkedin, BsGithub } from "react-icons/bs";
 
